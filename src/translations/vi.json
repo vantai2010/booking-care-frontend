@@ -1,0 +1,182 @@
+{
+    "homeHeader": {
+        "speciality": "Chuyên khoa",
+        "searchDoctor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-room": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "select-doctor": "Chọn bác sĩ giỏi",
+        "fee": "Gói khám",
+        "check-health": "Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ"
+    },
+    "banner": {
+        "title1": "NỀN TẢNG Y TẾ",
+        "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "specialized": "Khám chuyên khoa",
+        "remote": "Khám từ xa",
+        "general": "Khám tổng quát",
+        "medicalTest": "Xét nghiệm Y học",
+        "mentalHealth": "Sức khỏe tinh thần",
+        "dental": "Khám nha khoa"
+    },
+    "menu": {
+        "system": {
+            "header": "Hệ thống",
+            "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng",
+                "user-redux": "Quản lý user redux"
+            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin": {
+            "header": "Người dùng",
+            "manage-user": "Quản lý người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên ngành",
+            "manage-specialty": "Quản lý chuyên ngành",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý kế hoạch khám bệnh",
+            "manage-patient": "Quản lý bệnh nhân khám bệnh"
+        }
+    },
+    "manage-user": {
+        "title": "--- Quản lý người dùng ---",
+        "add": "Thêm mới người dùng",
+        "update": "Cập nhật người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức gianh",
+        "role": "Vai trò",
+        "image": "Ảnh đại diện",
+        "save": "Lưu",
+        "phone-number": "Số điện thoại",
+        "choise": "Chọn",
+        "btn-create": "Tạo mới",
+        "btn-admin": "Quản trị viên",
+        "btn-doctor": "Bác sĩ",
+        "btn-patient": "Bệnh nhân"
+    },
+    "modal": {
+        "titleCreate": "Tạo mới người dùng",
+        "create": "Tạo",
+        "close": "Đóng",
+        "titleConfirm": "Gửi hóa đơn khám bệnh",
+        "send": "Gửi",
+        "send-to": "Gửi tới: ",
+        "choose-image": "Chọn ảnh đơn hóa đơn",
+        "no-data": "Không có dữ liệu"
+    },
+    "home-page": {
+        "out-standing-doctor": "Bác sĩ nổi bật tuần qua",
+        "more-view": "XEM THÊM",
+        "popular-specialties": "Chuyên khoa phổ biến",
+        "outstanding-medical-facility": "Cơ xở y tế nổi bật",
+        "hand-book": "Cẩm nang",
+        "social-media": "Truyền thông nói về công ty zephyous eagle",
+        "mission": "Độc Lập - Tự Do - Hạnh Phúc"
+    },
+    "table": {
+        "email": "email",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "address": "Địa chỉ",
+        "phone-number": "Số điện thoại",
+        "gender": "Giới tính",
+        "action": "Hành Động"
+    },
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+        "choose-date": "Chọn ngày",
+        "choose-doctor": "Chọn Bác sĩ",
+        "save": "Lưu thông tin",
+        "edit": "Sửa thông tin"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Lịch Khám",
+            "no-schedule": "Bác sĩ không có lịch trong thời gian này vui lòng chọn thời gian khác !!!",
+            "choose": "Chọn ",
+            "book-free": " và đặt (miễn phí)"
+        },
+        "extra-infor-doctor": {
+            "text-address": "Địa chỉ khám",
+            "price": "Giá khám",
+            "detail": "Xem chi tiết",
+            "payment": "Người bệnh có thể thanh toán chi phí bằng hình thức: ",
+            "hide-price": "Ẩn bảng giá",
+            "see-more": "Xem thêm"
+        },
+        "modal-booking": {
+            "time": "Thời gian: ",
+            "first-name": "Tên",
+            "last-name": "Họ",
+            "phone": "Số điện thoại",
+            "email": "Địa chỉ email",
+            "location": "Địa chỉ liên hệ",
+            "for": "Đặt cho ai",
+            "gender": "Giới tính",
+            "reason": "Lý do khám",
+            "check-at": "Khám tại: ",
+            "confirm": "Xác nhận",
+            "cancel": "Hủy"
+        },
+        "specialty": {
+            "nationwide": "Toàn quốc"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "--- Tạo thông tin bác sĩ ---",
+            "select-doctor": "Chọn Bác sĩ",
+            "intro": "Thông tin giới thiệu",
+            "add": "THÊM THÔNG TIN",
+            "save": "LƯU THÔNG TIN",
+            "choose-price": "Chọn giá",
+            "choose-payment": "Chọn phương thức thanh toán",
+            "choose-province": "Chọn tỉnh thành",
+            "name-clinic": "Tên phòng khám",
+            "address-clinic": "Địa chỉ phòng khám",
+            "note": "Chú thích",
+            "choose-specialty": "Chọn chuyên khoa",
+            "choose-clinic": "Chọn phòng khám"
+        },
+        "manage-specialty": {
+            "title": "--- Quản lý chuyên khoa ---",
+            "name": "Tên chuyên khoa",
+            "image": "Ảnh chuyên khoa",
+            "save": "Lưu"
+        },
+        "manage-clinic": {
+            "title": "--- Quản lý phòng khám ---",
+            "name": "Tên phòng khám",
+            "image": "Ảnh phòng khám",
+            "address": "Địa chỉ phòng khám",
+            "save": "Lưu"
+        }
+    },
+    "manage-patient": {
+        "title": "--- Quản lý bệnh nhân khám bệnh ---",
+        "choose-date": "Chọn ngày",
+        "time": "Thời gian",
+        "name": "Tên",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "action": "Hành Động",
+        "confirm": "Xác nhận"
+    }
+}

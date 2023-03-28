@@ -1,0 +1,173 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.users-container{
+
+  .btn-edit{
+      width: 50px;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: orange;
+  
+      &:hover{
+        background-color: transparent !important;
+        color: blue;
+      }
+  }
+  
+  .btn-delete{
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: red;
+  
+    &:hover{
+      background-color: transparent !important;
+      color: blue;
+    }
+  }
+  
+  
+  .btn-container{
+      position: relative;
+      height: 40px;
+     
+  
+    .btn-create {
+      position: absolute;
+      width: 120px;
+      height: 30px;
+      background-color: aqua;
+      color: black;
+      box-shadow: 1px 2px 3px #4e4747;
+      cursor: pointer;
+      border: none;
+      border-radius:3px;
+      font-weight: 500;
+    
+      &:active{
+        left: 3px;
+        top: 4px;
+        box-shadow: none;
+      }
+    }
+
+    .nav-btn{
+      position: absolute;
+      left: 188px;
+      height: 40px;
+      width: 100%;
+     
+
+      button{
+        border-radius: 3px;
+        margin: 0 5px;
+        width: 160px;
+        padding: 5px 8px;
+        border: none;
+
+        &:hover{
+          background-color: rgb(93, 239, 93);
+        }
+
+        &.select{
+          background-color: rgb(93, 239, 93);
+          border: none;
+        }
+      
+      }
+    }
+  }
+}
+
+
+.modal-user-container{
+
+  .modal-header{
+    button{
+      background-color: transparent;
+      color: white;
+      font-size: 25px;
+      font-weight: 600;
+      border: none;
+    }
+    
+  }
+
+  .modal-user-body{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    .input-container{
+      display: flex;
+      flex-direction: column;
+      width: 49%;
+      
+      .form-select{
+        height: 100%;
+      }
+
+      input{
+        position: relative;
+        border-radius: 3px;
+        padding: 0 10px;
+        border: 1px solid grey;
+        height: 30px;
+  
+        &:focus{
+          outline: 4px solid #86b7fe;
+          
+        }
+
+        
+      }
+      .icon{
+        position: absolute;
+        right: 23px;
+        top: 40px;
+      }
+    }
+
+  }
+
+  .btn-close{
+    background-color: #4e4747;
+    width: 75px;
+    color: white;
+
+    &:hover{
+      background-color: red;
+    }
+  }
+
+  .btn-create{
+    width: 100px;
+  }
+}

@@ -1,0 +1,189 @@
+// customize button in  slider
+.slick-prev{
+    left: -25px !important;
+    z-index: 100 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7;
+
+    &:hover{
+        background: #d7d7d7 !important;
+    }
+}
+.slick-prev:before, .slick-next:before{
+    top: 30px !important;
+    left: 30px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    color: red !important;
+}
+
+.slick-next{
+    right: -10px !important;
+    z-index: 100 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7;
+
+    &:hover{
+        background: #d7d7d7 !important;
+    }
+}
+
+.slick-disabled{
+    display: none !important;
+}
+
+.section-container{
+    margin: 0 150px;
+    display: flex;
+    flex-direction: column;
+    
+    .section-header{
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+        padding-top: 30px;
+        height: 60px;
+
+        .title-section{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .btn-section{
+            height: 33px;
+            width: 120px;
+            padding: 5px 10px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: yellow;
+            }
+       }
+    }
+    
+}
+
+
+.section-share{
+    height: 335px;
+
+    &.section-specialty{
+        background: #f5f5f5;
+    }
+
+    &.section-outstanding-doctor{
+        background: #f5f5f5;
+    }
+    .section-body{
+        padding-top: 30px;
+
+        .section-customize{
+            cursor: pointer;
+            .bg-image{
+                width: 278px;
+                height: 150px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover ;
+                background-color: #eee;
+
+                &.section-specialty{
+                    background-image: url('../../assets/specialty/xuongkhop.jpg');
+                }
+                
+                &.section-medical-facility{
+                    background-image: url('../../assets/medical_facility/facility.jpg');
+                }
+
+                &.section-outstanding-doctor{
+                    width: 120px;
+                    height: 120px;
+                    // background-image: url('../../assets/outStanding_doctor/doctor.jpg');
+                    border-radius: 50%;
+                    margin: 0 auto;
+                }
+
+                &.section-handbook {
+                    background-image: url('../../assets/handbook/handbook.png');
+                }
+            }
+
+            
+        }
+
+        
+    }
+}
+
+.section-outstanding-doctor{
+
+    .section-customize{
+        padding: 5px;
+        
+        .customize-border{
+            width: 283px;
+            height: 193px;
+            padding: 15px 0;
+            border: 1px solid #d7d7d7;
+        }
+        &:hover {
+            color: rgb(64, 64, 250);
+        }
+    }
+}
+
+
+.home-footer{
+    text-align: center;
+    padding-top: 4px;
+
+    a{
+        text-decoration: none;
+    }
+}
+
+
+.section-about{
+    height: 500px;
+    padding: 0 150px;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+
+    .section-about-header{
+        padding: 20px 10px;
+        font-size: 22px;
+        font-weight: 600;   
+    }
+
+    .section-about-content{
+        display: flex;
+        
+
+        .content-left{
+
+            iframe{
+                height: 400px;
+                width: 600px;
+            }
+            
+        }
+
+        .content-right{
+            margin-left: 50px;
+            width: 800px;
+            height: 400px;
+            background-image: url('../../assets/images/image-idea.jpg');
+            background-size: cover;
+            
+            p{
+                color: #fff;
+                padding-left: 200px;  
+            }
+        }
+    }
+}
